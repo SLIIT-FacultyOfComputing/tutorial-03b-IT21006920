@@ -13,17 +13,21 @@ int main() {
     // int box1Height, box1Width, box1Length;
     // 3. Create a variable called box2 of the Box structure type
     
+    struct  box1, box2;
+
     // int box2Height, box2Width, box2Length;
     int totalVolume;
     
     // 4. Input the height, width, lenght of box1 and box2
     cout << "Enter Box 1 Height : ";
-    cin >> Height of Box 1;
+    //cin >> Height of Box 1;
+    cin >> box1.height;
     cout << "Enter Box 1 Width : ";
-    cin >> Width of Box 1;
+    //cin >> Width of Box 1;
+    cin >> box1.width;
     cout << "Enter Box 1 Length : ";
-    cin >> Length of Box 1;
-    
+    //cin >> Length of Box 1;
+    cin >> box1.lenght;
     cout << "Enter Box 2 Height : ";
     cin >> Height of Box 2;
     cout << "Enter Box 2 Width : ";
